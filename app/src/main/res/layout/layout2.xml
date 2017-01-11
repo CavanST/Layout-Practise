@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lets make a Grid Layout!"
+        android:textSize="30sp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"/>
+    
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="3"
+        android:columnCount="2"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/die_1"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_marginTop="20dp"
+            android:layout_margin="20dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/die_2"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_marginTop="20dp"
+            android:layout_margin="20dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/die_3"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_marginTop="20dp"
+            android:layout_margin="20dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/die_4"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_marginTop="20dp"
+            android:layout_margin="20dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/die_5"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:layout_marginTop="20dp"
+            android:layout_margin="20dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/die_0"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginTop="20dp"
+            android:layout_margin="20dp"/>
+
+    </GridLayout>
+</LinearLayout>
